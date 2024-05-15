@@ -4,14 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projeto HTML</title>
 </head>
 
 <body>
 
+    <ul>
+        <li><a href="#Basicamente">Basicamente</a></li>
+        <li> <a href="#Atributo">Atributos</a></li>
+        <li><a href="#Ancoragem">Ancoragem e Navegabilidade</a></li>
+        <li><a href="#Doctype">Doctype</a></li>
+        <li><a href="#Lang">Lang</a></li>
+        <li><a href="#Head">Head</a></li>
+        <li><a href="#Body">Body</a></li>
+        <li><a href="#Literal">Literal</a></li>
+
+    </ul>
+
+
+
+
     <h1>Html</h1>
 
-    <h2>Basicamente</h2>
+    <h2 id="Basicamente">Basicamente</h2>
     <p> HTML (HyperText Markup Language) é uma linguagem de marcação de texto que informa ao navegador como estruturar
         as páginas web</p>
     <p>O HTML é formado por elementos, demarcados por tags com suas formatações</p>
@@ -20,13 +35,13 @@
     <p>A tag &lt;p&gt; demarca o conteúdo e a propria tag tem sua formatação (CSS). No total temos um elemento no nosso
         documento HTML </p>
 
-    <h2>Atributos</h2>
+    <h2 id="Atributo">Atributos</h2>
     <p>Dentro das tags é possivel adicionar caracteristicas e funções definindo atributos para as tags</p>
     <p>Exemplo:
     <p>&lt;p class="texto"&gt; </p>
     </p>
 
-    <h2>Ancoragem e Navegabilidade</h2>
+    <h2 id="Ancoragem">Ancoragem e Navegabilidade</h2>
     <p>
         Dentro de uma página web existem os hiperlinks, que servem para vincular nossos documentos a qualquer outro
         documento. <br>
@@ -35,19 +50,19 @@
     </p>
 
 
-    <h2>Doctype</h2>
+    <h2 id="Doctype">Doctype</h2>
     <p> O &lt;DOCTYPE html&gt; é a declaração do tipo de documento. É importante definir a declaração pois
         garante que o documento vai ser analisado da mesma maneira por diferentes navegadores.</p>
     <h4>Exemplos:</h4>
     <p>html , xhtml , svg e etc</p>
 
 
-    <h2>Lang</h2>
+    <h2 id="Lang">Lang</h2>
     <p lang="pt-br">O &lt;html lang&gt; define o idioma do elemento </p>
     <p>É usado de acordo com a <a href="https://www.andiamo.co.uk/resources/iso-language-codes/" target="_blank">ISO
             639</a> (paises com 2 letras)</p>
 
-    <h2>Head </h2>
+    <h2 id="Head">Head </h2>
     <p>O Head é a cabeça da página html, define os metadados do documento Html</p>
     <!-- metadados são dados legiveis por maquinas que atribuem outros dados -->
 
@@ -60,7 +75,7 @@
     <p>&lt;meta&gt; Representa os metadados que não podem ser representados por outros elementos relacionados a meta
         HTML (charset,content,http-equiv)</p>
 
-    <h2>Body</h2>
+    <h2 id="Body">Body</h2>
     <p>É o corpo do site que representa o conteúdo da página, sendo visivel para os usuários</p>
     <p>Dentro do body, existem váris tags que estruturam o site, aqui separamos de tal maneira:</p>
     <h4>Exemplos:</h4>
@@ -78,9 +93,13 @@
 
 
 
+<h2 id="Literal">Uso literal no Hmtl</h2>
+<p>Para o uso literal usamos o &lt;pre&gt; e o &lt;code&gt;  </p>
+<p>Explicamos isso no comentários, basta clica F12</p>
 
 
- <!-- Comentários
+
+    <!-- Comentários
         Uso literal do html dentro do codigo
 
     <pre>
